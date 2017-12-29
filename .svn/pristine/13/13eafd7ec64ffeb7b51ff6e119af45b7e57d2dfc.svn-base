@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<title>upload.html</title>
+
+		<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+		<meta http-equiv="description" content="this is my page">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+		<!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+	</head>
+
+	<body>
+		请选择要上传的文件：
+		<br />
+		<form action="../upload" method="post"
+			enctype="multipart/form-data">
+			<input type="text" name="myName" size="50" /></br>
+			<!-- 必须要存在File框用于 选择文件-->
+			<input type="file" name="myFile" size="50" /></br>
+			<input type="file" name="myFile1" size="50" /></br>
+			
+			<br />
+			<input type="submit" value="上传文件" />
+		</form>
+	
+		
+		<a href="../download">下载</a>
+		
+	</body>
+</html>
